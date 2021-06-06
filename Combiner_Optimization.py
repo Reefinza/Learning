@@ -33,10 +33,10 @@ while True:
     t = float(input("var 2 for product 2:"))
     b = float(input("number of product 2:"))
     
-    i=100
+    i=1
 
     while i<=a:
-        c=100
+        c=1
         current_max=0
         imax=0
         cmax=0
@@ -48,8 +48,8 @@ while True:
                 current_max=max(current_max,ic)
                 imax=max(imax,i)
                 cmax=max(cmax,c)
-            c+=100
-        i+=100
+            c+=1
+        i+=1
     if(imax>0 and cmax>0):
         print(imax,cmax,current_max,m,n)
         f = open("result.txt", "a")
